@@ -9,9 +9,10 @@ Para o desenvolvimento desta aplicação foram utilizadas as seguintes ferrament
 - Consumiu-se a API RESTCOUNTRIES do site https://restcountries.eu  
 
 # Desenvolvimento
-Foi criado dois components, um component dashboard-component.ts e xml.component.ts,
+Foi criado dois components em /src/app/pages, um component dashboard-component.ts e xml.component.ts,
 no component dashboard.component.ts, criou-se uma tabela com os campos solicitados no desafio do repositório da 2iBi,
 onde são populados todos os dados dos paises, consumidas apartir do link: https://restcountries.eu/rest/v2/all.
+Para consumir esta API, criei um serviço chamado dashboard.service.ts localizado em /src/app/pages/dashboard
 
 Esta tabela também contém 3 botões. 
 - Botão XML para gerar XML 
