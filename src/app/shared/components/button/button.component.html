@@ -1,0 +1,14 @@
+<button [disabled]="formValidation || buttonLoading" [type]="buttonObj?.type"
+  class="btn btn-outline-{{buttonObj?.color}}">
+
+  <span *ngIf="!buttonLoading">
+    <i class="fa fa-{{buttonObj?.icon}}"></i>
+    {{ buttonObj?.nameButton }}
+  </span>
+
+  <span *ngIf="buttonLoading">
+    <i class="fa fa-circle-o-notch fa-spin"></i>
+    {{ buttonObj?.nameButtonLoading }}...
+  </span>
+
+</button>

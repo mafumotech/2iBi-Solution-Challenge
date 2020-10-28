@@ -1,0 +1,26 @@
+<div style="border-radius: 0px;" *ngIf="message?.showAlert" class="alert alert-{{message?.type}} alert-dismissible">
+
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+  <h4>
+    <span *ngIf="message?.type=='danger'">
+      <i class="icon fa fa-ban"></i> Alerta!
+    </span>
+
+    <span *ngIf="message?.type=='info'">
+      <i class="icon fa fa-info"></i> Alerta!
+    </span>
+
+    <span *ngIf="message?.type=='warning'">
+      <i class="icon fa fa-warning"></i> Alerta!
+    </span>
+
+    <span *ngIf="message?.type=='success'">
+      <i class="icon fa fa-check"></i> Alerta!
+    </span>
+
+  </h4>
+
+  {{ message?.message }}
+
+</div>
