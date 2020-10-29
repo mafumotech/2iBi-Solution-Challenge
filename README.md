@@ -1,6 +1,8 @@
 # 2iBi-Solution-Challenge
 Este repositório contem o projecto do desafio proposto pela empresa 2iBi software.
 para acessar o demo click aqui: https://mafumotech.github.io/2iBi-Solution-Challenge/
+
+NB: Neste projecto ao acessar, irá aparecer uma tabela com 3 botões, se não aparecer peço que refresque a página, uma vez que usei o datatable as vezes não aparecem todos os botões. 
 # Ferramentas
 Para o desenvolvimento desta aplicação foram utilizadas as seguintes ferramentas:
 - Typesript
